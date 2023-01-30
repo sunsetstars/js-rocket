@@ -22,11 +22,19 @@
 			fly:function(){
 				alert('fly');
 			}
+			switchCar:function(isOn){
+				console.log('turn car '+isOn);
+				if(isOn == true){
+					this.isTurnedOn=true;
+				}else{
+					this.isTurnedOn=false;
+				}
+			}
 		};
 		console.log('hello friends');
 	</script>
 </head>
 <body>
-hello js rocket
+	hello js rocket
 </body>
 </html>
